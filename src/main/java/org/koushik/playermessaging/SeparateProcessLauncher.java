@@ -12,12 +12,12 @@ import java.io.IOException;
  * standalone JVM. Run twice (once per role) to get two different PIDs.
  *
  */
-public class SeperateProcessLauncher {
+public class SeparateProcessLauncher {
 
     private static final int MESSAGES_TO_EXCHANGE = 10;
     private static final long CONNECT_RETRY_LIMIT = 10_000;
 
-    private SeperateProcessLauncher() {}
+    private SeparateProcessLauncher() {}
 
     public static void main(String[] args) throws IOException {
         if(args.length < 2){
